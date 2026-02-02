@@ -451,6 +451,10 @@ footer p {
   .mobile p {
     font-size: 16.5px;
   }
+  .custom-btn {
+    padding: 10px 24px;
+    font-size: 16.5px;
+  }
 }
 @media (min-width: 901px) and (max-width: 1000px) {
   .featured p {
