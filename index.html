@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adriana Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav>
+        <a href="index.html"><img class="logo" src="logo.svg" alt="logo" /></a>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <div class="menu-overlay" id="menu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#featured">Featured Works</a></li>
+          <li><a href="#mobileapps">Mobile Applications</a></li>
+          <li><a href="#websites">Websites</a></li>
+        </ul>
+      </div>
+      <div class="hero-sec">
+        <picture>
+          <source srcset="hero1.svg" media="(min-width: 650px)" />
+          <img src="hero2.svg" alt="hero" class="hero" />
+        </picture>
+      </div>
+      <img class="arrow" src="arrow.png" alt="arrow" />
+    </header>
+    <!-- <section class="featured"><p>FEATURED WORKS</p></section> -->
+
+    <main id="featured">
+      <section class="mobile" id="mobileapps">
+        <h1>Todo Mobile App</h1>
+
+        <p>
+          Designed a mobile task management app in Figma for organizing tasks by
+          categories and time periods with an additional inbox-style chat
+          feature.
+        </p>
+
+        <div class="radovi">
+          <img src="radovi/todo1.png" />
+          <img src="radovi/todo2.png" />
+          <img src="radovi/todo3.png" />
+          <img src="radovi/todo4.png" />
+          <img src="radovi/todo5.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video" id="closeVideo">&times;</button>
+          <div class="video-crop">
+            <video autoplay muted loop playsinline data-speed="3">
+              <source src="todoapp.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile">
+        <h1>Biorganica Mobile App</h1>
+        <p>
+          Designed a mobile app store in Figma for organic food with preview of
+          sign in, sign up, category and subcategory screens.
+        </p>
+
+        <div class="radovi">
+          <img src="radovi/biorganica1.png" />
+          <img src="radovi/biorganica2.png" />
+          <img src="radovi/biorganica3.png" />
+          <img src="radovi/biorganica4.png" />
+          <img src="radovi/biorganica5.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video">&times;</button>
+          <div class="video-crop">
+            <video autoplay muted loop playsinline>
+              <source src="bio.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="mobile">
+        <h1>Music Mobile App</h1>
+        <p>
+          Designed a mobile music app in Figma with preview of now playing,
+          artist profile and album screens.
+        </p>
+
+        <div class="radovi" id="radoviSection">
+          <img src="radovi/music1.png" />
+          <img src="radovi/music2.png" />
+          <img src="radovi/music3.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video">&times;</button>
+          <div class="video-crop">
+            <video autoplay muted loop playsinline>
+              <source src="musicy.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="mobile">
+        <h1>BookStore Mobile App</h1>
+        <p>
+          Designed a BookStore mobile app in Figma with a preview of the splash
+          screen, home page and book details screens.
+        </p>
+
+        <div class="radovi" id="radoviSection">
+          <img src="radovi/book1.png" />
+          <img src="radovi/book2.png" />
+          <img src="radovi/book3.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video">&times;</button>
+          <div class="video-crop">
+            <video autoplay muted loop playsinline>
+              <source src="bo.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="mobile">
+        <h1 id="websites">Organic Food eCommerce Website</h1>
+        <p>
+          Designed an eCommerce website for organic food in Figma, with a
+          visually presented landing page.
+        </p>
+
+        <div class="wradovi" id="wradoviSection">
+          <img src="radovi/orgfood.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video">&times;</button>
+          <div class="video-crop1">
+            <video autoplay muted loop playsinline>
+              <source src="biorganica.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="mobile">
+        <h1>Florist eCommerce Website</h1>
+        <p>
+          Designed an eCommerce website for a flower shop in Figma, with a
+          visually presented landing page.
+        </p>
+
+        <div class="wradovi" id="wradoviSection">
+          <img src="radovi/flower.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video">&times;</button>
+          <div class="video-crop1">
+            <video autoplay muted loop playsinline>
+              <source src="flowesh.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="mobile">
+        <h1>Software Company Website</h1>
+        <p>
+          Designed a website for a software company in Figma, with a visually
+          presented landing page.
+        </p>
+
+        <div class="wradovi" id="wradoviSection">
+          <img src="radovi/softw.png" />
+        </div>
+
+        <button class="custom-btn preview-btn">Watch Preview</button>
+
+        <div class="okvir video-wrapper" style="display: none">
+          <button class="close-video">&times;</button>
+          <div class="video-crop1">
+            <video autoplay muted loop playsinline>
+              <source src="soft.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="mobile">
+        <h1>Fashion eCommerce Product Page</h1>
+        <p>
+          Designed a fashion eCommerce product page in Figma for a denim jacket
+          with product details and options.
+        </p>
+
+        <div class="wradovi" id="wradoviSection">
+          <img src="radovi/fashion.png" />
+        </div>
+      </section>
+      <img class="strelica" src="strelica1.png" alt="arrow1" />
+    </main>
+    <footer><p>© 2026 Adriana | Portfolio</p></footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
