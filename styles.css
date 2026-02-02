@@ -332,28 +332,18 @@ main {
 
 .video-crop {
   margin-top: 20px;
-  height: calc(100% - 28px);
-  overflow: hidden;
-  position: relative;
 }
 
 .video-crop video {
-  margin-top: -28px;
   width: 350px;
-  display: block;
 }
 
 .video-crop1 {
   margin-top: 20px;
-  height: calc(100% - 28px);
-  overflow: hidden;
-  position: relative;
 }
 
 .video-crop1 video {
-  margin-top: -28px;
   width: 350px;
-  display: block;
 }
 
 footer {
@@ -425,12 +415,10 @@ footer p {
     right: -5px;
   }
   .video-crop video {
-    margin-top: -22px;
     width: 280px;
   }
 
   .video-crop1 video {
-    margin-top: -17px;
     width: 350px;
   }
 
@@ -462,11 +450,9 @@ footer p {
   }
 
   .video-crop video {
-    margin-top: -22px;
     width: 280px;
   }
   .video-crop1 video {
-    margin-top: -29px;
     width: 280px;
   }
 }
